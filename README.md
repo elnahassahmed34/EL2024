@@ -1,2 +1,2 @@
 # EL2024
-Embedded Linux Diploma
+In this Repo we will summerize EL2024 lessons and solving tasks.
