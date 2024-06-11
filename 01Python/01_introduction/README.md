@@ -203,3 +203,5 @@ for i in range(1, 11):
 ```
 
 Understanding the code flow in Python is essential for writing efficient and effective programs. Sequential execution, conditional statements, loops, and functions are the building blocks of Python programming.
+
+
