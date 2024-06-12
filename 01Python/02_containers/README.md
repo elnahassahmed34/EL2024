@@ -1,6 +1,6 @@
 # String Operations in Python 
 
-This README provides an overview of common string operations in Python along with examples for each operation.
+An overview of common string operations in Python along with examples for each operation.
 
 1. Creating Strings
 Strings in Python can be created using single quotes, double quotes, or triple quotes for multi-line strings.
