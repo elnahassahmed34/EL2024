@@ -1,4 +1,4 @@
-# String Operations in Python README
+# String Operations in Python 
 
 This README provides an overview of common string operations in Python along with examples for each operation.
 
