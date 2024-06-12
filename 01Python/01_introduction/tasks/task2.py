@@ -11,4 +11,3 @@ area = compute_area(radius)
 
 # Print the result
 print(f"The area of the circle with radius {radius} is: {area}")
-
