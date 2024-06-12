@@ -216,6 +216,15 @@ Example:
 ```python
 add = lambda x, y: x + y
 print(add(5, 3))  # Output: 8
+
+#Using lambda with higher-order functions like `map`, `filter`, and `sorted`
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = list(map(lambda x: x ** 2, numbers))
+print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
+
+#Filtering even numbers
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(even_numbers)  # Output: [2, 4]
 ```
 
 Understanding these different types of functions allows for more flexible and powerful code in Python. Each type has its specific use case and can be utilized to create more efficient and readable code.

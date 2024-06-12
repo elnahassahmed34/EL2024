@@ -20,5 +20,6 @@ print(sum(2,3))
 
 def myfunction(**arg)
     
+x=lambda a: a+10
+print(x(5))
 
-    
