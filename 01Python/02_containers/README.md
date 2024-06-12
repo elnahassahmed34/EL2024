@@ -133,3 +133,89 @@ print(joined_string)  # Output: Hello World
 ```
 
 These are some of the fundamental string operations in Python. Understanding them is crucial for effective string manipulation and processing.
+
+
+# Types of Functions in Python README
+
+An overview of different types of functions in Python, including normal functions (with or without return values), functions with default or assigned values, variadic functions, and lambda functions.
+
+1. Normal Functions
+- Void Functions
+A void function performs an action but does not return a value.
+
+Example:
+
+```python
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Alice")
+```
+- Functions with Return Values
+A function that performs an action and returns a value.
+
+Example:
+
+```python
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print(result)  # Output: 8
+```
+
+2. Functions with Default or Assigned Values
+A function can have parameters with default values, which are used if no arguments are provided during the function call.
+
+Example:
+
+```python
+def greet(name="World"):
+    print(f"Hello, {name}!")
+
+greet()        # Output: Hello, World!
+greet("Alice") # Output: Hello, Alice!
+```
+3. Variadic Functions
+Variadic functions can accept a variable number of arguments. These are defined using *args for a tuple of positional arguments and **kwargs for a dictionary of keyword arguments.
+
+- Using *args
+Allows a function to accept any number of positional arguments.
+
+Example:
+
+```python
+def sum_all(*args):
+    return sum(args)
+
+result = sum_all(1, 2, 3, 4)
+print(result)  # Output: 10
+```
+- Using **kwargs
+Allows a function to accept any number of keyword arguments.
+
+Example:
+
+```python
+def print_details(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+print_details(name="Alice", age=30, city="New York")
+# Output:
+# name: Alice
+# age: 30
+# city: New York
+```
+
+4. Lambda Functions
+Lambda functions are small anonymous functions defined using the lambda keyword. They can have any number of arguments but only one expression.
+
+Example:
+
+```python
+add = lambda x, y: x + y
+print(add(5, 3))  # Output: 8
+```
+
+Understanding these different types of functions allows for more flexible and powerful code in Python. Each type has its specific use case and can be utilized to create more efficient and readable code.
