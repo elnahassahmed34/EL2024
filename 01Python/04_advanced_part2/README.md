@@ -278,20 +278,3 @@ except Exception as e:
     print(f"An error occurred: {e}")
 
 ```
-//tasks
-5-alexa -> take voice and do what i want 
-    what is time -> reply by time
-    open google
-
-
-
-
-
-
-
-
-
-
-
-
-
