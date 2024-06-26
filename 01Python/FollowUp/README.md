@@ -58,9 +58,6 @@ int main() {
 }
 ```
 
-## Web scrapping -> 05_tasks -> scrapping 
+## Web scrapping -> 02_05_tasks -> scrapping 
 
-//pyautogui
-
-pynotifier not functioning + pyautogui mouse not working +
-Locate on screen , it doesn't recognize photos 
+## pyautogui 02_tasks -> locate
