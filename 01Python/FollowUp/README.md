@@ -1,10 +1,18 @@
 # Follow up sessions
 
-- doxygen task -> README.md
-- gpio tasks -> 04_tasks -> avr_GPIO.py
-- header file parse -> 04_tasks -> parse header
+- doxygen task -> README.md //
+- gpio tasks -> 04_tasks -> avr_GPIO.py //
+- header file parse -> 04_tasks -> parse header //
 
-- explain private member 
+- explain private member //
+
+//OOP
+
+-enc class gpio -> class LCD , class keypad , class uart
+-abs
+-inh
+-poly
+
 
 ## Private Members in Python and C++
 
@@ -43,9 +51,18 @@ private:
 
 public:
     MyClass() : private_member(42) {}
+    
+
+    int setPrivateMember(int data) const {
+        if(data == 10){
+            private_member = data ;
+    }
+    else{
+        cout >> "wrong input" << endl;
+    }
 
     int getPrivateMember() const {
-        return private_member;
+        return private_member +10 ;
     }
 };
 
@@ -58,6 +75,9 @@ int main() {
 }
 ```
 
-## Web scrapping -> 02_05_tasks -> scrapping 
+## Web scrapping -> 02_05_tasks -> scrapping //
 
-## pyautogui 02_tasks -> locate
+## pyautogui 02_tasks -> locate  //
+
+
+

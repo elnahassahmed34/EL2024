@@ -112,9 +112,10 @@ with open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
         writer.writerow([func_info['name'], func_info['brief'], param_str])
 
 print(f'Extracted information saved to {csv_file}')
+```
+
 Step 4: Run the Python Script
 Execute the Python script to parse the HTML files and generate the CSV file:
-```
 
 ```sh
 python parse_doxygen_html.py
