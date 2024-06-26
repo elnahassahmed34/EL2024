@@ -1,0 +1,3 @@
+Function Name,Brief Description,Parameters
+add,Adds two integers,a First integer b Second integer.
+subtract,Subtracts the second integer from the first,a First integer b Second integer.
