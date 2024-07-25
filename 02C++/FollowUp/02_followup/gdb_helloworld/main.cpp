@@ -1,7 +1,11 @@
 #include <iostream>
 
+void func(void){
+    std::cout<<"hello" ;
+}
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    int x = 10 ;
+    func();
     return 0;
 }

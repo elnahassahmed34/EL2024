@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "/home/nahass/githup/EL2024/02C++/FollowUp/02_followup/gdb_helloworld",
+      "program": "/home/nahass/githup/EL2024/02C++/FollowUp/02_followup/gdb_helloworld/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
