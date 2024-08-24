@@ -4,7 +4,7 @@
 
 class MyString {
 private:
-    char* data;
+    char* data std::endl;
 
 public:
     // Default constructor

@@ -63,5 +63,10 @@
   "python.analysis.extraPaths": [
     "${workspaceFolder}/sources/poky/bitbake/lib",
     "${workspaceFolder}/sources/poky/meta/lib"
-  ]
+  ],
+  "files.associations": {
+    "*.tcc": "cpp",
+    "ostream": "cpp",
+    "iosfwd": "cpp"
+  }
 }
